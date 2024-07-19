@@ -3,6 +3,9 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+/**
+ * Main Class for mars rover simulation.
+*/
 public class MarsRoverSimulation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

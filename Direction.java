@@ -1,6 +1,10 @@
+/**
+ * Enum representing the four directions.
+*/
 public enum Direction {
     N, E, S, W;
 
+    // Turn left from current direction.
     public Direction left() {
         switch (this) {
             case N:
@@ -16,6 +20,7 @@ public enum Direction {
         }
     }
 
+    // Turn right from current direction.
     public Direction right() {
         switch (this) {
             case N:

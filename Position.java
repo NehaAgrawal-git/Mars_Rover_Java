@@ -1,5 +1,8 @@
 import java.util.Objects;
 
+/**
+ * Class representing a position in the grid.
+ */
 public class Position {
     private int x, y;
 

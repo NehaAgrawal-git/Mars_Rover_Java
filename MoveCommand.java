@@ -1,3 +1,7 @@
+/**
+ * Command to move the rover.
+ * @param rover The rover which is to be moved.
+ */
 public class MoveCommand implements Command {
     private Rover rover;
 

@@ -1,6 +1,11 @@
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Class representing grid with obstacles.
+ * @param width The width of grid
+ * @param height The height of grid
+*/
 public class Grid {
     private int width, height;
     private Set<Position> obstacles;

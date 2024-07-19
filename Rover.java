@@ -1,3 +1,10 @@
+/**
+ * Class representing the Mars Rover.
+ * @param x The x coordinate
+ * @param y The y coordinate
+ * @param direction Direction in which rover is facing
+ * @param grid The grid
+ */
 public class Rover {
     private int x, y;
     private Direction direction;

@@ -1,3 +1,7 @@
+/**
+ * Command to turn left.
+ * @param rover The rover which is being turned.
+ */
 public class TurnLeftCommand implements Command {
     private Rover rover;
 
